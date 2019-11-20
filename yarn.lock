@@ -1132,17 +1132,17 @@
     rxjs "6.5.3"
     webpack-sources "1.4.3"
 
-"@ngx-formly/core@^5.2.0":
-  version "5.4.3"
-  resolved "https://registry.yarnpkg.com/@ngx-formly/core/-/core-5.4.3.tgz#84cfee5b82f9c6a400a02c4d4d951705ec7ae8c8"
-  integrity sha512-ntCdT3H5qvEgBYw8ekK3mUC9AHh+hLHhOeZ3raLZqGhVrx7F7WPZsLKUV61Uqi7iPHFkxbBPfOftAefbedDYoQ==
+"@ngx-formly/core@^5.5.0":
+  version "5.5.5"
+  resolved "https://registry.yarnpkg.com/@ngx-formly/core/-/core-5.5.5.tgz#152118c18fda3bdd5f5a22376e030247ebe754cd"
+  integrity sha512-h5Siao9wnpKU6b0lJnNOFDKKdBRnRScxBKHMG7yDA+3+c+pJG03R3ykQt8RSJwImPIvqPgrwP417dMPGgpTLdg==
   dependencies:
     tslib "^1.7.1"
 
-"@ngx-formly/material@^5.2.0":
-  version "5.4.3"
-  resolved "https://registry.yarnpkg.com/@ngx-formly/material/-/material-5.4.3.tgz#2962398898d7d6bbe81f6174cd1c0a3a081ee5b0"
-  integrity sha512-9qd1j1z56pccVqK6jZdUweZxQuB2NKpsUyBi1bHz/OU9K6rkX4aNPPbYSMQrTgD2iIt4w5ob4ci3M/KJIN8bLA==
+"@ngx-formly/material@^5.5.0":
+  version "5.5.5"
+  resolved "https://registry.yarnpkg.com/@ngx-formly/material/-/material-5.5.5.tgz#6d0b5a5661c9f9431e7f608ab752cdb2da84a1f0"
+  integrity sha512-oiWF/9YUyVgVMcoLrxFB/SMbF7ajp5v02S/DOyLBjZy1yg0LsUdiVCCZ6ZJMpOE8XjyojmpvzeORk6dEtCbgSg==
   dependencies:
     tslib "^1.9.0"
 
