@@ -1,4 +1,4 @@
-import {BrowserModule, HAMMER_GESTURE_CONFIG} from '@angular/platform-browser';
+import { BrowserModule, HAMMER_GESTURE_CONFIG, HammerModule } from '@angular/platform-browser';
 import {ErrorHandler, NgModule} from '@angular/core';
 import {AppComponent} from './app.component';
 import {ServiceWorkerModule} from '@angular/service-worker';
@@ -35,6 +35,7 @@ import {ConfigModule} from './features/config/config.module';
 import {ProjectModule} from './features/project/project.module';
 import {EntityDataModule} from '@ngrx/data';
 import {MaterialCssVarsModule} from 'angular-material-css-vars';
+import { GestureConfig } from "../gesture-config";
 
 // NOTE: export required for aot to work
 export function createTranslateLoader(http: HttpClient) {
@@ -110,12 +111,14 @@ export function createTranslateLoader(http: HttpClient) {
         deps: [HttpClient]
       }
     }),
-    EntityDataModule
+    EntityDataModule,
+    HammerModule
   ],
   bootstrap: [AppComponent],
   providers: [
     {provide: ErrorHandler, useClass: GlobalErrorHandler},
     {provide: HAMMER_GESTURE_CONFIG, useClass: MyHammerConfig},
+    { provide: HAMMER_GESTURE_CONFIG, useClass: GestureConfig },
   ],
 })
 export class AppModule {

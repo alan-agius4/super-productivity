@@ -34,7 +34,7 @@ export class InlineMarkdownComponent implements OnInit, OnDestroy {
   @Output() focused: EventEmitter<Event> = new EventEmitter();
   @Output() blurred: EventEmitter<Event> = new EventEmitter();
   @ViewChild('wrapperEl', {static: true}) wrapperEl: ElementRef;
-  @ViewChild('textareaEl', {static: false}) textareaEl: ElementRef;
+  @ViewChild('textareaEl') textareaEl: ElementRef;
   @ViewChild('previewEl', {static: true}) previewEl: MarkdownComponent;
 
   isHideOverflow = false;

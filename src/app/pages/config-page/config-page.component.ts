@@ -13,7 +13,7 @@ import {IssueIntegrationCfgs} from '../../features/issue/issue';
 import {IS_ELECTRON} from '../../app.constants';
 import {environment} from '../../../environments/environment';
 import {T} from '../../t.const';
-import {MatSlideToggleChange} from '@angular/material';
+import { MatSlideToggleChange } from '@angular/material/slide-toggle';
 
 @Component({
   selector: 'config-page',
